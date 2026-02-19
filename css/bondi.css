@@ -9,6 +9,10 @@ body {
     font-family: "Roboto", sans-serif;
   height: 10000px;
 }
+span{
+    font-size:16px;
+    font-size: 1rem;
+}
 .main-btn{
     background-color:var(--red-color) ;
     color: var(--yellow-color);
@@ -125,3 +129,19 @@ body {
   max-width: 500px;
 }
 /* End Stuff */
+/* Start Team */
+.team {
+  background-color: var(--section-color);
+}
+.team h2 {
+  color: var(--yellow-color);
+}
+.team .box h4 {
+  background-color: var(--green-color);
+}
+/* End Team */
+/* Start Project */
+.project {
+  background-color: var(--dark-color);
+}
+/* End Project */
